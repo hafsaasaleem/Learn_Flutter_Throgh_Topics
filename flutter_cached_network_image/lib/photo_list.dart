@@ -13,7 +13,7 @@ class PhotoList extends StatelessWidget {
       itemCount: 20,
       itemBuilder: (_, index) {
         final imageUrl =
-            "https://source.unsplash.com/random/?sig=$index/900×700/?fruits";
+            "https://source.unsplash.com/random/?sig=$index/900×700/?nature";
         return Hero(
           tag: imageUrl,
           child: PhotoCard(imageUrl: imageUrl),
